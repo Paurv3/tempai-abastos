@@ -34,6 +34,6 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: 'Build Inventory Image'
         run: |
-          docker build . --tag ghcr.io/pauvr3/tempai-abastos:latest
-          docker push ghcr.io/pauvr3/tempai-abastos:latest
+          docker build . --tag ghcr.io/paurv3/tempai-abastos:latest
+          docker push ghcr.io/paurv3/tempai-abastos:latest
       
